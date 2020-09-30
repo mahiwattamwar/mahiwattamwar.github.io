@@ -1,0 +1,148 @@
+@import 'utilities.css';
+
+
+:root{
+  --primary:#3DCFD3;
+  --dark:#161616;
+  --pure:#FFFFFF;
+  --ternary:#898989;
+  --light:#F2F2F2;
+  --secondary:#070606;
+}
+body{
+
+font-family: 'poppins',sans-serif;
+
+}
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+-webkit-font-smotthing:antialised;
+
+
+}
+
+
+header{
+
+background: var(--dark);
+clip-path:polygon(0 0,100% 0,100% 100%, 80% 86%, 0 100%);
+
+
+}
+.container{
+
+  max-width:1152px;
+  padding:0 15px;
+  margin:0 auto;
+}
+header nav .left a{
+color:var(--pure);
+text-decoration: none;
+margin-right:2rem;
+text-transform:uppercase;
+transition:all .3s ease;
+
+}
+header nav .left a:hover{
+  color:var(--primary);
+}
+header nav {
+
+  padding:2rem 0;
+}
+header nav .branding{
+margin-right:3rem;
+
+}
+.hero {
+  padding:2rem 0;
+}
+.hero .left img{
+
+  width:600px;
+
+ 
+}
+.hero .right{
+color:var(--pure);
+
+}
+.hero .right h6{
+  font-size:1.6rem;
+  color:var(--primary);
+  margin-bottom:0.5rem;
+}
+.hero .right h1{
+   font-size:4rem;
+   font-weight:100;
+   line-height:1.5;
+   margin-bottom:1rem;
+}
+.hero .right h1 span{
+  color:var(--primary);
+
+}
+.hero .right p{
+  line-height:1.9;
+  margin-bottom:2rem;
+}
+.hero .right{
+  margin-top:-2rem;
+}
+<
+section{
+  padding:6rem 0;
+}
+section.about .about-me-img{
+  height:450px;
+  
+}
+section.about h1{
+  margin-bottom:1rem;
+  margin-top:2rem;
+  font-size:1.7rem;
+  font-weight:400;
+}
+section.about h1 span{
+  color:var(--primary);
+}
+section.about h3{
+
+  font-size:1rem;
+  margin-bottom:1rem;
+  font-weight:400;
+}
+section.about p{
+  font-family:'Lato',sans-serif;
+  color:var(--ternary);
+  line-height:1.9;
+  margin-bottom:2rem;
+}
+section.about .social{
+display:flex;
+}
+section.about .social a{
+  background:var(--dark);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:35px;
+  height:35px;
+  border-radius:50%;
+  margin-right:0.6rem;
+}
+section.about .social a:hover{
+  background:var(--primary);
+
+}
+
+
+section.about .social a img{
+  width:100%
+  height:100%
+  padding:0.5rem;
+}
