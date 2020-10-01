@@ -1,101 +1,217 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Mahesh V Wattamwar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Roboto&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="The portfolio of Mahesh Wattamwar, an Indian software engineer based in Nanded, Maharashtra India ">
-    <meta name="keywords" content="mahesh wattamar,portfolio of mahesh,latest portfolio,maheshwattamwar.github.io,maheshwattamwar">
-    
-    <meta name="author" content="Mahesh Wattamwar">
-
-    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="myIcon.ico">
-
-  </head>
-  <body>
-
-    <header>
-
-                   
-        <div class="container">           
-                   
-                    <nav class="flex items-center justify-between"> 
-                               <div class="left flex items-center">
-                          <div class="branding">
-     
-                            <img src="images\logo.svg" alt="">
-                     </div>
-                     <div>
-                    <a href="#">Home</a>
-                     <a href="#">About</a>
-                     <a href="#">Services</a>
-                     <a href="#">Pages</a>
-                     <a href="#">Blog</a>
-                     </div>
-    
-                   </div>
-    <div class="right">
-    <button class="btn btn-primary">Contact</button>
-    
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mahesh Wattamwar</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>M</span>ahi <span>W</span>attamwar</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-   
-   
-    
-            </nav>
+  </section>
+  <!-- End Header -->
 
 
-            <div class="hero flex items-center justify-between"> 
-            <div class="left flex-1 flex justify-center ">
-            <img src="images/mayu.png" alt="">
-            </div>
-            <div class="right flex-1 ">
-            
-            <h6> Mahesh Wattamwar</h6>
-            <h1>I'm a Creative <span>Designer</span></h1>
-            <p> The Imagination of Mahesh is to Build Future in Digital Marketing I feel The World Made for You and Everyone and Who have the Power to Covert a Dream in Reality</p>
-          
-          <div> 
-          <button class="btn btn-secondary">DOWNLOAD CV</button>
-             </div>
-            </div>
-            
-            </div>
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Mahesh <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
     </div>
-    </header>
+  </section>
+  <!-- End Hero Section  -->
 
-<section class="about">
-<div class="container flex items-center">
-<div class="flex-1">
-<img class="about-me-img" src="./images/mahesh.png" alt="">
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>"Help the life of one person and you can help the community"</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Android Developement</h2>
+          <p>Android is an open source operating system, based on Linux kernel and used in mobile devices like smartphones, tablets etc. Further, it was developed for smart watches and Android TV</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Java Applications</h2>
+          <p>Java provides high security and simple coding, two elements that attract web application developers. Servlets, Struts, and JSPs give effective support to web applications and offer the potential to develop whatever kind of programs needed</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Web Development</h2>
+          <p>It includes aspects such as web design, web publishing, web programming, and database management. ... A web developer may be involved in designing a website, but may also write web scripts in languages such as PHP and ASP</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Digital Marketing</h2>
+          <p>Digital marketing encompasses all aspects and activities of marketing an organization, business, or brand across digital channels on the internet. Digital </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
 
-</div>
-<div class="flex-1">
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
+            <p>Coding is a list of step-by-step instructions that get computers to do what you want them to do. Coding makes it possible for us to create computer software, games, apps and websites</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/coding.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>MSCIT Exam Controller</h2>
+            <p>The Controller of Examinations shall be responsible for the conduct of all examinations of the College and it shall be his/her duty to arrange for preparation, scheduling, conduct of examinations of the College and all other contingent matters connected with examinations.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/mahiii.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Android Developer</h2>
+            <p>The main responsibility of an Android Developer is to develop applications for devices that are powered by the Android operating system. In addition, an Android developer must pay special attention to the application's compatibility with multiple versions of Android and device types</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/android.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Java Chat Application</h2>
+            <p>Java provides high security and simple coding, two elements that attract web application developers. Servlets, Struts, and JSPs give effective support to web applications and offer the potential to develop whatever kind of programs needed</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/work.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Web Development</h2>
+            <p>A Web Developer is responsible for the coding, design and layout of a website according to a company's specifications. As the role takes into consideration user experience and function, a certain level of both graphic design and computer programming is necessary.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/web.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
 
-<h1> About <span> Me</span></h1>
-<h3> Hello! I' m Mahesh Wattamwar</h3>
-<p>Myself Mahesh Wattamwar from Nanded. I am completed my Engineering Diploma From GPNanded .Experience MS-CIT Controller with a demonstrated history of working in the computer software industry at Sumitra InfoTech private limited Nanded. Skilled in Python (Programming Language), WordPress, C++, Java, and Android Development. Strong accounting professional with a Diploma focused in Information Technology from Government polytechnic Nanded. 
-</p>
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Web Developer</h2>
+        <p>Myself Mahesh Wattamwar from Nanded. I am completed my Engineering Diploma From GPNanded .Experience MS-CIT Controller with a demonstrated history of working in the computer software industry at Sumitra InfoTech private limited Nanded. Skilled in Python (Programming Language), WordPress, C++, Java, and Android Development. Strong accounting professional with a Diploma focused in Information Technology from Government polytechnic Nanded.</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
 
-<div class="social">
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+917218232383</h2>
+            <h2>+919370427616</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>maheshwattamwar001@gmail.com</h2>
+            <h2>maheshwattamwar100@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>At Kudli,Nanded,Maharashtra </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
 
-<a href="#"><img src="./images/website.svg" alt=""</a>
-<a href="#"><img src="./images/facebook.svg" alt=""</a>
-<a href="#"><img src="./images/twitter.svg" alt=""</a>
-<a href="#"><img src="./images/pintrest.svg" alt=""</a>
-<a href="#"><img src="./images/instagram.svg" alt=""</a>
-
-</div>
-
-
-</div>
-</div>
-
-</section>
-
-  </body>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>M</span>ahesh <span>W</span>atta<span>mw</span>ar</h1></div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/maheshwattamwar7218" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://instagram.com/itz_mahi_official?igshid=1rg3xkkshy3vn" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/Itz_Mahi_31" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/maheshwattamwar" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/behance.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Mahesh. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
 </html>
