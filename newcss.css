@@ -1,0 +1,60 @@
+.contact-me {
+
+      background-color: #2874A6;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+    }
+    .call{
+        background-color: green;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+            margin: 10px auto 0 auto;
+      
+       width: 220px;
+      
+      border-radius: 100px;
+
+    }
+    .call-text{
+      color: white;
+      font-size: 1.5em;
+    }
+
+    .mg-auto{
+      margin-top: 20px;
+    }
+    .color-text-gold {
+      font-size: 3rem;
+      color: yellow;
+    }
+
+    .sin {
+     color: white;
+      display: block;
+    font-size: 2em;
+    font-weight: bold;
+
+    }
+
+    .cos{
+      font-size: 1.75;
+      color: white;
+
+    }
+
+    .btn {
+      margin: 10px auto 0 auto;
+       padding: 20px;
+       width: 150px;
+      background-color: red;
+      border-radius: 100px;
+      font-size: 1.5em;
+      color: blue;
+    }
+    .btn-text {
+      color: white;
+    }
