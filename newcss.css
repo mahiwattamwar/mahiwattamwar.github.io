@@ -1,3 +1,9 @@
+
+
+ body{
+      background-color: #7BB8A9;
+    }
+
 .contact-me {
 
       background-color: #2874A6;
@@ -19,6 +25,7 @@
       border-radius: 100px;
 
     }
+
     .call-text{
       color: white;
       font-size: 1.5em;
@@ -58,3 +65,13 @@
     .btn-text {
       color: white;
     }
+.myabout{
+  color: black;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+.myhead{
+  font-weight: bold;
+  font-size: 2em;
+  color: red;
+}
